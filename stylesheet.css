@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.Raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.Economica {
+  font-family: "Economica";
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 112px;
+}
+.oben {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aft-image {
+  margin-bottom: 120px;
+  height: 100vh;
+  background-image: url(./img/hero_bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  top: 112px;
+  right: 160px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.menu a {
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.phone {
+  margin: 8px;
+  background-color: #9f0908;
+  border-radius: 8px;
+  border: solid white 2px;
+  padding: 8px;
+}
+
+.logoPhone {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.sakuraLogo {
+  width: 64px;
+  height: 64px;
+  top: 112px;
+  left: 160px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 96px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.spam2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.howtoorder {
+  margin-bottom: 120px;
+}
+
+.hedline2 {
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #9f0908;
+}
+
+.besstelung {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pic {
+  width: 128px;
+  height: auto;
+}
+.icon {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: warp;
+}
+
+.writing1 {
+  padding-top: 8px;
+  font-family: "Economica";
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.sectionOurMenu {
+  background-image: url(./img/section_our_menu_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+
+.hedline3 {
+  padding-top: 120px;
+  padding-bottom: 32px;
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #9f0908;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section3tomkotsumRamen {
+  padding-top: 32px;
+  display: flex;
+  gap: 150px;
+}
+
+.containerMenu1 {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  table-layout: auto;
+  width: 100%;
+}
+
+.ourmenuBild {
+  padding-right: 40px;
+  width: 352px;
+  height: 352px;
+  position: relative;
+  object-fit: contain;
+}
+
+.ourMenuFont {
+  margin-bottom: 8px;
+  font-family: "Economica";
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.regularBold {
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #675e67;
+  margin: 8px;
+}
+
+.section3spicyMisoRamen {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 150px;
+}
+
+.containerMenu2 {
+  padding-right: 40px;
+}
+
+.section3shioRamen {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.containerMenu3 {
+  padding-left: 40px;
+}
+
+.sectionlocations4 {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hedline4 {
+  padding-bottom: 4px;
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #9f0908;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.adress {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.sectionmapmarker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mapmarker {
+  height: 24px;
+  width: 24px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+}
+
+.googleMaps {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  height: 350px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #0a141e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 144px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.footerLogo {
+  height: 44px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.socialmediaLogo {
+  width: 40px;
+  height: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  .hidden-mobil {
+    display: none;
+  }
+
+  h1 {
+    font-size: 85px;
+  }
+
+  .section3tomkotsumRamen,
+  .section3spicyMisoRamen,
+  .section3shioRamen {
+    flex-direction: column;
+    padding-top: 32px;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ourmenuBild,
+  .containerMenu1{
+    padding-right: inherit;
+    padding-left: inherit;
+  }
+  .besstelung {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+  }
+
+  .pic {
+    width: 128px;
+  }
+
+  .footer {
+    gap: 100px;
+    padding-left: 100px;
+  }
+
+  .howtoorder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ourmenuBild,
+  .containerMenu1 {
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .hedline2 {
+    font-size: 60px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hedline2 {
+    font-size: 50px;
+  }
+
+  .hedline4 {
+    font-size: 75px;
+  }
+
+  .howtoorder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .hedline4 {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media  screen and (max-width: 450px) {
+  .hedline3 {
+    font-size: 65px;
+  }
+  
+}
+
+@media screen and (max-width: 430px) {
+  .section3tomkotsumRamen,
+  .section3spicyMisoRamen,
+  .section3shioRamen,
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .hedline2,
+  .hedline3,
+  .hedline4 {
+    font-size: 60px;
+  }
+
+  .besstelung {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adress {
+    font-size: 16px;
+  }
+
+  .icon {
+    max-width: 50%;
+    display: flex;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ourmenuBild,
+  .containerMenu1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  .hedline2 {
+    text-align: center;
+  }
+  .hedline2,
+  .hedline3,
+  .hedline4 {
+    font-size: 60px;
+  }
+
+  .dish {
+    gap: 25px;
+  }
+
+  .spam2 {
+    text-align: center;
+  }
+
+  .footerLogo {
+    height: 40px;
+  }
+
+  .dish {
+    gap: 5px;
+  }
+
+  .adress {
+    font-size: 14px;
+  }
+
+  .aft-image {
+    height: 53.5em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hedline4 {
+    font-size: 50px;
+  }
+  
+}
+
+@media screen and (max-width: 330px) {
+  .hedline3 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .spam2 {
+    font-size: 20px;
+  }
+  .hedline3 {
+    text-align: center;
+  }
+
+  .ourmenuBild,
+  .containerMenu1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .hedline4 {
+    font-size: 45px;
+  }
+
+  .sectionOurMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ourmenuBild {
+    padding: inherit;
+  }
+
+  .containerMenu1 {
+    padding: inherit;
+  }
+
+  @media screen and (min-width: 150px) and (max-width: 260px) {
+    .hedline4 {
+      font-size: 40px;
+    }
+  }
+}
